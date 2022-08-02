@@ -2,8 +2,6 @@ A port of my [xaringan blackboard theme](https://github.com/schochastics/xaringa
 
 ![](title.png)
 
-The rendered HTML template can be found [here](https://schochastics.github.io/blackboard-revealjs/)
-
 ## Installation
 
 The template can be installed using the following command
