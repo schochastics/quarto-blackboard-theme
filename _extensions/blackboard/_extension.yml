@@ -14,6 +14,3 @@ contributes:
               <a href="https://mr.schochastics.net">theme by schochastics</a>
       title-slide-attributes:
         data-background-image: blackboard.png
-      format-resources:
-        - blackboard.png
-        - frame2.png
