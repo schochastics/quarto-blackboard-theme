@@ -9,7 +9,7 @@ format: blackboard-revealjs
 ```{r setup, include=FALSE}
 library(showtext)
 library(ggplot2)
-showtextfont_add_google("Pangolin", "Pangolin")
+font_add_google("Pangolin", "Pangolin")
 showtext_auto()
 
 #theme for chalkboard
