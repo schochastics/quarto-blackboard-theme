@@ -2,6 +2,10 @@ A port of my [xaringan blackboard theme](https://github.com/schochastics/xaringa
 
 ![](title.png)
 
+![](ggplot.png)
+
+![](list.png)
+
 ## Installation
 
 The template can be installed using the following command
