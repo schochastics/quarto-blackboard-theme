@@ -1,0 +1,19 @@
+title: Blackboard Theme 
+author: David Schoch
+version: 1.0.0
+contributes:
+  formats:
+    revealjs:
+      slide-number: true
+      menu: false
+      progress: false
+      filters: [imgs.lua]
+      theme: [default, blackboard.scss]
+      css: theme.css
+      footer: |
+              <a href="https://mr.schochastics.net">theme by schochastics</a>
+      title-slide-attributes:
+        data-background-image: blackboard.png
+      format-resources:
+        - blackboard.png
+        - frame2.png

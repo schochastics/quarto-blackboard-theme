@@ -1,0 +1,49 @@
+.framed {
+ display: inline-block;
+ border-style: solid;
+ padding: 10px;  
+ border-width: 15px 15px 15px 15px;
+ border-image: url("frame2.png") 20% 20% 20% 20% stretch;
+}
+
+pre, code {
+ background-color: transparent !important;
+ border-style: solid;
+ border-width: 5px 5px 5px 5px;
+ border-image: url(frame.png) 10% 0% 40% 20% stretch;
+}
+
+.reveal ol, .reveal dl, .reveal ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+ font-family: Pangolin;
+ padding-left: 30px;
+ background: url('dot.png') no-repeat left top;
+}
+
+h2{
+ width:1107px;
+ background-image: url(underline.png);
+ background-position: 0 1em;
+ background-repeat: repeat-x;
+ background-size: 1107px 12px;
+}
+
+#title-slide {
+  text-align: left;
+}
+
+.subtitle{
+ background-image: url(underline.png);
+ background-position: 0 1em;
+ background-repeat: repeat-x;
+ background-size: 1107px 12px;
+}
+
+.author{
+  padding-top: 2em;
+}

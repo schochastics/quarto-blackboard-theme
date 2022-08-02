@@ -1,0 +1,64 @@
+---
+title: "Quarto Blackboard theme"
+subtitle: "for revealjs"
+author: "David Schoch"
+institute: "GESIS - Leibniz Institute for the Social Sciences"
+format: blackboard-revealjs
+---
+
+```{r setup, include=FALSE}
+library(showtext)
+library(ggplot2)
+showtextfont_add_google("Pangolin", "Pangolin")
+showtext_auto()
+
+#theme for chalkboard
+theme_chalk <- function () { 
+  theme_minimal() %+replace% 
+    theme(
+      axis.ticks = element_line(colour = "white",size=0.25),
+      text = element_text(colour = "white"),
+      axis.text  = element_text(colour = "white",family = "Pangolin",size=18),
+      axis.title  = element_text(colour = "white",family = "Pangolin",size=24),
+      panel.background  = element_rect(colour = NA,fill="transparent"),
+      plot.background = element_rect(colour = "white",fill="transparent"),
+      legend.position = "bottom",
+      legend.title = element_blank(),
+      panel.grid.minor = element_blank(),
+      panel.grid.major.x = element_line(colour = "white",size=0.25),
+      panel.grid.major.y = element_line(colour = "white",size=0.25),
+      legend.text = element_text(size = 24)
+    )
+}
+
+knitr::opts_chunk$set(dev.args=list(bg="transparent"))
+```
+
+## Code style and ggplot theme
+
+```{r testing,fig.showtext = TRUE,fig.width=12,fig.height=4,out.height="100%",fig.align="center"}
+#| fig.height: 4
+#| fig.width: 12
+#| fig.align: 'center'
+#| echo: true
+ggplot(cars) +
+  geom_point(aes(speed,dist),col="white")+
+  theme_chalk()
+```
+
+## Images and text with frame
+
+:::{.framed}
+Images and text can be framed!
+:::
+
+![](https://via.placeholder.com/450x200){.framed}
+
+## Lists
+
+- Lists
+
+- are 
+
+- fun
+
