@@ -4,13 +4,8 @@ local function copyResource(file)
 end
 
 function Header(el)
-  copyResource('blackboard.png')
-  copyResource('frame.png')
-  copyResource('frame2.png')
-  copyResource('dot.png')
-  copyResource('underline.png')
   if not el.attributes['background-image'] then
-    el.attributes['background-image'] = 'blackboard.png'
+    el.attributes['background-image'] = '_extensions/schochastics/blackboard/blackboard.png'
     el.attributes['background-size'] = 'cover'
   end
   
