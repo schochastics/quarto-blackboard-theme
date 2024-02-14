@@ -5,7 +5,7 @@
 
 $font-family-sans-serif: 'Pangolin', sans-serif !default;
 $presentation-heading-font: 'Shadows Into Light', sans-serif !default;
-   
+
 // colors
 $body-bg: #333333 !default;
 $body-color: white !default;
@@ -14,12 +14,12 @@ $link-color: $body-color !default;
 $code-block-border-color: transparent !default;
 
 /*-- scss:rules --*/
-/*--body {
-	background: url('blackboard.png');
-	background-size: cover;
-}--*/
+// body {
+//     background: url('blackboard.png');
+//     background-size: cover;
+// }
 
 /*Background image*/
-pre > code.sourceCode > span {
- font-family: 'Pangolin';
+pre>code.sourceCode>span {
+    font-family: 'Pangolin';
 }
